@@ -2,7 +2,11 @@
   "name": "imperial-qa-unit-test",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
   "main": "onboarding.js",
+=======
+  "main": "login.js",
+>>>>>>> adcc0e476f0eeb216b421e43f8c8531f4ecb67da
   "scripts": {
     "test": "jest"
   },
