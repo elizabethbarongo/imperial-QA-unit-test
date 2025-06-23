@@ -1,24 +1,15 @@
 {
-  "name": "imperial-qa-unit-test",
+  "name": "qa-assignment",
   "version": "1.0.0",
-  "description": "",
-<<<<<<< HEAD
-  "main": "onboarding.js",
-=======
-  "main": "login.js",
->>>>>>> adcc0e476f0eeb216b421e43f8c8531f4ecb67da
+  "main": "index.js",
   "scripts": {
     "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/elizabethbarongo/imperial-QA-unit-test.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/elizabethbarongo/imperial-QA-unit-test/issues"
-  },
-  "homepage": "https://github.com/elizabethbarongo/imperial-QA-unit-test#readme"
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

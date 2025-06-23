@@ -1,3 +1,5 @@
+// /userRoleManagement.js
+
 function login(email, password) {
     if (email === 'admin@recycleco.com' && password === 'adminpass') {
       return { token: 'valid-token', role: 'admin' };
@@ -6,4 +8,10 @@ function login(email, password) {
     }
     return null;
   }
-  module.exports = login;
+  
+  function getUserRole(token) {
+    return token === 'valid-token' ? 'admin' : null;
+  }
+  
+  module.exports = { login, getUserRole };
+  
