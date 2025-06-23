@@ -2,8 +2,6 @@
   "name": "imperial-qa-unit-test",
   "version": "1.0.0",
   "description": "",
-  "main": "environmentalImpact.js",
-
   "main": "login.js",
   "scripts": {
     "test": "jest"
